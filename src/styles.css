@@ -1,0 +1,168 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h4{
+    color: #1CB698;
+}
+
+body{
+    background: linear-gradient(to top, rgba(30,35,38,1), #148c74 );
+}
+
+.header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #1CB698;
+    text-decoration: none;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header nav ul li a{
+    font-size: 24px;
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.inicio{ 
+    height: 500px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+    
+
+.inicio .contenido-banner{
+    background-color: #1e2326;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.inicio .contenido-banner img{
+    border: 10px solid #1CB698;
+    display: block;
+    width: 12%;
+    margin: auto;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.inicio .contenido-banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #1CB698;
+}
+
+.sobremi{
+    color: #fff;
+    padding: 20px;
+    background-color: #1e2326;
+    margin: 40px 15%;
+    text-align: center;
+    border-radius: 40px;
+    width: 70%;
+    scroll-margin-top: 12ex;
+}
+
+.inf{
+    color: #fff;
+    padding: 20px;
+    background-color: #1e2326;
+    margin: 40px 15%;
+    text-align: center;
+    border-radius: 40px;
+    width: 70%;
+}
+
+strong{
+    color: #1CB698;
+}
+
+.educacion{
+    color: #fff;
+    padding: 20px;
+    background-color: #1e2326;
+    margin: 40px 15%;
+    text-align: center;
+    border-radius: 40px;
+    width: 70%;
+    scroll-margin-top: 12ex;
+}
+
+.certificados{
+    color: #fff;
+    padding: 20px;
+    background-color: #1e2326;
+    margin: 40px 15%;
+    text-align: center;
+    border-radius: 40px;
+    width: 70%;
+    scroll-margin-top: 12ex;
+}
+
+.contacto{
+    color: #fff;
+    padding: 20px;
+    background-color: #1e2326;
+    margin: 40px 25%;
+    text-align: center;
+    border-radius: 40px;
+    width: 50%;
+    scroll-margin-top: 12ex;
+}
+button{
+    background-color:#1CB698;
+    font-size: 25px ;
+    border-radius: 400px;
+}
+
+footer{
+    background-color: #252A2E;
+    text-align: center;
+    position: relative;   
+    height: 50px;
+    margin-top: 50px;
+}
+
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    position: absolute;
+    left: 48%;
+    top: -25px;
+    border-radius: 50%;
+}
